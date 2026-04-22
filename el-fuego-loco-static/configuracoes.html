@@ -1,0 +1,40 @@
+<!doctype html><html lang="pt-br"><head><meta charset="utf-8"><title>Configurações — El Fuego Loco</title><link rel="stylesheet" href="styles.css"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body><div class="app"><aside class="sidebar">
+  <div class="brand"><h1>🔥 EL FUEGO LOCO</h1><p>Painel do Gerente</p></div>
+  <nav class="nav">
+    <a href="dashboard.html"      data-key="dashboard"><span class="nav-icon">📊</span>Dashboard</a>
+    <a href="cardapio.html"       data-key="cardapio"><span class="nav-icon">🍽️</span>Cardápio</a>
+    <a href="estoque.html"        data-key="estoque"><span class="nav-icon">📦</span>Estoque</a>
+    <a href="relatorios.html"     data-key="relatorios"><span class="nav-icon">📈</span>Relatórios</a>
+    <a href="funcionarios.html"   data-key="funcionarios"><span class="nav-icon">👥</span>Funcionários</a>
+    <a href="cozinha.html"        data-key="cozinha"><span class="nav-icon">👨‍🍳</span>Cozinha (KDS)</a>
+    <a href="garcom.html"         data-key="garcom"><span class="nav-icon">🪑</span>Mesas / Garçom</a>
+    <a href="delivery.html"       data-key="delivery"><span class="nav-icon">🛵</span>Delivery</a>
+    <a href="configuracoes.html"  data-key="configuracoes" class="active"><span class="nav-icon">⚙️</span>Configurações</a>
+    <a href="login.html"          data-key="sair"><span class="nav-icon">🚪</span>Sair</a>
+  </nav>
+  <div class="user-box">Logado como<br><strong>Carlos Mendes</strong> · Gerente</div>
+</aside>
+<main class="main">
+<header class="topbar"><h2>Configurações</h2><div class="topbar-right">📅 21/04/2026 · 14:32 · <strong>Carlos Mendes</strong></div></header>
+<section class="content">
+<div class="grid grid-2">
+  <div class="card">
+    <h3 style="color:var(--wine);margin-bottom:16px">🏪 Dados do Restaurante</h3>
+    <div class="form-row"><label>Nome</label><input value="El Fuego Loco"></div>
+    <div class="form-row"><label>CNPJ</label><input value="12.345.678/0001-90"></div>
+    <div class="form-row"><label>Endereço</label><input value="Rua das Brasas, 420 — Centro"></div>
+    <div class="form-row"><label>Telefone</label><input value="(11) 99999-1234"></div>
+    <button class="btn">Salvar alterações</button>
+  </div>
+  <div class="card">
+    <h3 style="color:var(--wine);margin-bottom:16px">⚙️ Regras Operacionais</h3>
+    <div class="form-row"><label>Limite de desconto sem aprovação (%)</label><input type="number" value="10"></div>
+    <div class="form-row"><label>Tempo máx. pedido cozinha (min)</label><input type="number" value="25"></div>
+    <div class="form-row"><label>Taxa de serviço (%)</label><input type="number" value="10"></div>
+    <div class="form-row"><label>Modo</label><select><option>Operação normal</option><option>Happy hour</option><option>Fechado</option></select></div>
+    <button class="btn">Salvar alterações</button>
+  </div>
+</div>
+</section>
+</main></div></body></html>

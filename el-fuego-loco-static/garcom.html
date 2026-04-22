@@ -1,0 +1,33 @@
+<!doctype html><html lang="pt-br"><head><meta charset="utf-8"><title>Mesas / Garçom — El Fuego Loco</title><link rel="stylesheet" href="styles.css"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body><div class="app"><aside class="sidebar">
+  <div class="brand"><h1>🔥 EL FUEGO LOCO</h1><p>Painel do Gerente</p></div>
+  <nav class="nav">
+    <a href="dashboard.html"      data-key="dashboard"><span class="nav-icon">📊</span>Dashboard</a>
+    <a href="cardapio.html"       data-key="cardapio"><span class="nav-icon">🍽️</span>Cardápio</a>
+    <a href="estoque.html"        data-key="estoque"><span class="nav-icon">📦</span>Estoque</a>
+    <a href="relatorios.html"     data-key="relatorios"><span class="nav-icon">📈</span>Relatórios</a>
+    <a href="funcionarios.html"   data-key="funcionarios"><span class="nav-icon">👥</span>Funcionários</a>
+    <a href="cozinha.html"        data-key="cozinha"><span class="nav-icon">👨‍🍳</span>Cozinha (KDS)</a>
+    <a href="garcom.html"         data-key="garcom" class="active"><span class="nav-icon">🪑</span>Mesas / Garçom</a>
+    <a href="delivery.html"       data-key="delivery"><span class="nav-icon">🛵</span>Delivery</a>
+    <a href="configuracoes.html"  data-key="configuracoes"><span class="nav-icon">⚙️</span>Configurações</a>
+    <a href="login.html"          data-key="sair"><span class="nav-icon">🚪</span>Sair</a>
+  </nav>
+  <div class="user-box">Logado como<br><strong>Carlos Mendes</strong> · Gerente</div>
+</aside>
+<main class="main">
+<header class="topbar"><h2>Mesas / Garçom</h2><div class="topbar-right">📅 21/04/2026 · 14:32 · <strong>Carlos Mendes</strong></div></header>
+<section class="content">
+<div class="grid grid-4" style="margin-bottom:24px">
+  <div class="card"><div class="card-title">Livres</div><div class="card-value" style="color:var(--green)">8</div></div>
+  <div class="card"><div class="card-title">Ocupadas</div><div class="card-value" style="color:var(--amber)">4</div></div>
+  <div class="card"><div class="card-title">Aguardando conta</div><div class="card-value" style="color:var(--red)">2</div></div>
+  <div class="card"><div class="card-title">Faturamento Salão</div><div class="card-value">R$ 2.140</div></div>
+</div>
+<h3 class="section-title">🪑 Mapa de Mesas</h3>
+<div class="tables-grid"><div class="table-tile free"><div class="num">01</div><div class="label">livre</div></div><div class="table-tile busy"><div class="num">02</div><div class="label">ocupada</div></div><div class="table-tile free"><div class="num">03</div><div class="label">livre</div></div><div class="table-tile busy"><div class="num">04</div><div class="label">ocupada</div></div><div class="table-tile bill"><div class="num">05</div><div class="label">conta</div></div><div class="table-tile free"><div class="num">06</div><div class="label">livre</div></div><div class="table-tile busy"><div class="num">07</div><div class="label">ocupada</div></div><div class="table-tile free"><div class="num">08</div><div class="label">livre</div></div><div class="table-tile busy"><div class="num">09</div><div class="label">ocupada</div></div><div class="table-tile free"><div class="num">10</div><div class="label">livre</div></div><div class="table-tile bill"><div class="num">11</div><div class="label">conta</div></div><div class="table-tile free"><div class="num">12</div><div class="label">livre</div></div><div class="table-tile free"><div class="num">13</div><div class="label">livre</div></div><div class="table-tile free"><div class="num">14</div><div class="label">livre</div></div></div>
+<div style="margin-top:24px;display:flex;gap:16px;font-size:12px;color:var(--muted)">
+  <span>🟢 Livre</span><span>🟡 Ocupada</span><span>🔴 Aguardando conta</span>
+</div>
+</section>
+</main></div></body></html>

@@ -1,0 +1,63 @@
+<!doctype html><html lang="pt-br"><head><meta charset="utf-8"><title>Dashboard — El Fuego Loco</title><link rel="stylesheet" href="styles.css"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body><div class="app"><aside class="sidebar">
+  <div class="brand"><h1>🔥 EL FUEGO LOCO</h1><p>Painel do Gerente</p></div>
+  <nav class="nav">
+    <a href="dashboard.html"      data-key="dashboard" class="active"><span class="nav-icon">📊</span>Dashboard</a>
+    <a href="cardapio.html"       data-key="cardapio"><span class="nav-icon">🍽️</span>Cardápio</a>
+    <a href="estoque.html"        data-key="estoque"><span class="nav-icon">📦</span>Estoque</a>
+    <a href="relatorios.html"     data-key="relatorios"><span class="nav-icon">📈</span>Relatórios</a>
+    <a href="funcionarios.html"   data-key="funcionarios"><span class="nav-icon">👥</span>Funcionários</a>
+    <a href="cozinha.html"        data-key="cozinha"><span class="nav-icon">👨‍🍳</span>Cozinha (KDS)</a>
+    <a href="garcom.html"         data-key="garcom"><span class="nav-icon">🪑</span>Mesas / Garçom</a>
+    <a href="delivery.html"       data-key="delivery"><span class="nav-icon">🛵</span>Delivery</a>
+    <a href="configuracoes.html"  data-key="configuracoes"><span class="nav-icon">⚙️</span>Configurações</a>
+    <a href="login.html"          data-key="sair"><span class="nav-icon">🚪</span>Sair</a>
+  </nav>
+  <div class="user-box">Logado como<br><strong>Carlos Mendes</strong> · Gerente</div>
+</aside>
+<main class="main">
+<header class="topbar"><h2>Dashboard</h2><div class="topbar-right">📅 21/04/2026 · 14:32 · <strong>Carlos Mendes</strong></div></header>
+<section class="content">
+<div class="grid grid-4" style="margin-bottom:24px">
+  <div class="card"><div class="card-title">Faturamento Hoje</div><div class="card-value">R$ 4.872</div><div class="card-sub" style="color:var(--green)">▲ 12% vs ontem</div></div>
+  <div class="card"><div class="card-title">Pedidos Hoje</div><div class="card-value">87</div><div class="card-sub">32 salão · 41 delivery · 14 balcão</div></div>
+  <div class="card"><div class="card-title">Ticket Médio</div><div class="card-value">R$ 56,00</div><div class="card-sub" style="color:var(--green)">▲ 4% vs semana</div></div>
+  <div class="card"><div class="card-title">Mesas Ocupadas</div><div class="card-value">8 / 14</div><div class="card-sub">57% de ocupação</div></div>
+</div>
+
+<div class="grid grid-2" style="margin-bottom:24px">
+  <div>
+    <h3 class="section-title">⚠️ Zona de Atenção</h3>
+    <div class="alert alert-warn">📦 Estoque baixo: <strong>Picanha</strong> (2,1 kg restantes — mín. 5kg)</div>
+    <div class="alert alert-warn">📦 Estoque baixo: <strong>Cerveja Heineken</strong> (12 un — mín. 24)</div>
+    <div class="alert alert-warn">💰 Desconto acima do limite: <strong>Garçom Pedro</strong> deu 18% (limite 10%)</div>
+  </div>
+  <div>
+    <h3 class="section-title">🚨 Zona Crítica</h3>
+    <div class="alert alert-danger">🔥 Pedido #1247 parado há <strong>28 min</strong> na cozinha</div>
+    <div class="alert alert-danger">📦 Sem estoque: <strong>Vinho Malbec</strong> (0 un)</div>
+  </div>
+</div>
+
+<div class="grid grid-2">
+  <div class="card">
+    <h3 style="margin-bottom:14px;color:var(--wine)">🏆 Ranking de Garçons (semana)</h3>
+    <table style="box-shadow:none">
+      <tr><td>🥇 Mariana Silva</td><td><strong>R$ 8.420</strong></td><td><span class="badge badge-green">+22%</span></td></tr>
+      <tr><td>🥈 Pedro Costa</td><td><strong>R$ 7.150</strong></td><td><span class="badge badge-green">+8%</span></td></tr>
+      <tr><td>🥉 João Almeida</td><td><strong>R$ 6.800</strong></td><td><span class="badge badge-amber">−3%</span></td></tr>
+      <tr><td>4. Lucas Pereira</td><td><strong>R$ 5.420</strong></td><td><span class="badge badge-red">−12%</span></td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h3 style="margin-bottom:14px;color:var(--wine)">🍽️ Top Pratos (semana)</h3>
+    <table style="box-shadow:none">
+      <tr><td>Picanha na Brasa</td><td><strong>142 un</strong></td><td>R$ 12.780</td></tr>
+      <tr><td>Costela BBQ</td><td><strong>98 un</strong></td><td>R$ 7.840</td></tr>
+      <tr><td>Chorizo Argentino</td><td><strong>76 un</strong></td><td>R$ 5.320</td></tr>
+      <tr><td>Vazio Premium</td><td><strong>54 un</strong></td><td>R$ 4.860</td></tr>
+    </table>
+  </div>
+</div>
+</section>
+</main></div></body></html>

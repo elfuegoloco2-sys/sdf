@@ -1,0 +1,29 @@
+<!doctype html><html lang="pt-br"><head><meta charset="utf-8"><title>Estoque — El Fuego Loco</title><link rel="stylesheet" href="styles.css"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body><div class="app"><aside class="sidebar">
+  <div class="brand"><h1>🔥 EL FUEGO LOCO</h1><p>Painel do Gerente</p></div>
+  <nav class="nav">
+    <a href="dashboard.html"      data-key="dashboard"><span class="nav-icon">📊</span>Dashboard</a>
+    <a href="cardapio.html"       data-key="cardapio"><span class="nav-icon">🍽️</span>Cardápio</a>
+    <a href="estoque.html"        data-key="estoque" class="active"><span class="nav-icon">📦</span>Estoque</a>
+    <a href="relatorios.html"     data-key="relatorios"><span class="nav-icon">📈</span>Relatórios</a>
+    <a href="funcionarios.html"   data-key="funcionarios"><span class="nav-icon">👥</span>Funcionários</a>
+    <a href="cozinha.html"        data-key="cozinha"><span class="nav-icon">👨‍🍳</span>Cozinha (KDS)</a>
+    <a href="garcom.html"         data-key="garcom"><span class="nav-icon">🪑</span>Mesas / Garçom</a>
+    <a href="delivery.html"       data-key="delivery"><span class="nav-icon">🛵</span>Delivery</a>
+    <a href="configuracoes.html"  data-key="configuracoes"><span class="nav-icon">⚙️</span>Configurações</a>
+    <a href="login.html"          data-key="sair"><span class="nav-icon">🚪</span>Sair</a>
+  </nav>
+  <div class="user-box">Logado como<br><strong>Carlos Mendes</strong> · Gerente</div>
+</aside>
+<main class="main">
+<header class="topbar"><h2>Estoque</h2><div class="topbar-right">📅 21/04/2026 · 14:32 · <strong>Carlos Mendes</strong></div></header>
+<section class="content">
+<div class="grid grid-3" style="margin-bottom:24px">
+  <div class="card"><div class="card-title">Itens Cadastrados</div><div class="card-value">42</div></div>
+  <div class="card"><div class="card-title">Estoque Baixo</div><div class="card-value" style="color:var(--amber)">2</div></div>
+  <div class="card"><div class="card-title">Sem Estoque</div><div class="card-value" style="color:var(--red)">2</div></div>
+</div>
+<div style="display:flex;justify-content:space-between;margin-bottom:16px"><h3 class="section-title" style="margin:0">Itens em Estoque</h3><button class="btn">＋ Adicionar</button></div>
+<table><thead><tr><th>Item</th><th>Unidade</th><th>Atual</th><th>Mínimo</th><th>Status</th><th>Ação</th></tr></thead><tbody><tr><td><strong>Picanha</strong></td><td>kg</td><td>2.1</td><td>5</td><td><span class="badge badge-red">Crítico</span></td><td><button class='btn btn-sm btn-outline'>Repor</button></td></tr><tr><td><strong>Costela</strong></td><td>kg</td><td>18</td><td>8</td><td><span class="badge badge-green">OK</span></td><td><button class='btn btn-sm btn-outline'>Repor</button></td></tr><tr><td><strong>Chorizo</strong></td><td>un</td><td>42</td><td>20</td><td><span class="badge badge-green">OK</span></td><td><button class='btn btn-sm btn-outline'>Repor</button></td></tr><tr><td><strong>Vinho Malbec</strong></td><td>gf</td><td>0</td><td>6</td><td><span class="badge badge-red">Crítico</span></td><td><button class='btn btn-sm btn-outline'>Repor</button></td></tr><tr><td><strong>Heineken 600ml</strong></td><td>un</td><td>12</td><td>24</td><td><span class="badge badge-amber">Baixo</span></td><td><button class='btn btn-sm btn-outline'>Repor</button></td></tr><tr><td><strong>Coca 2L</strong></td><td>un</td><td>30</td><td>15</td><td><span class="badge badge-green">OK</span></td><td><button class='btn btn-sm btn-outline'>Repor</button></td></tr><tr><td><strong>Batata</strong></td><td>kg</td><td>24</td><td>10</td><td><span class="badge badge-green">OK</span></td><td><button class='btn btn-sm btn-outline'>Repor</button></td></tr><tr><td><strong>Queijo Coalho</strong></td><td>kg</td><td>4</td><td>3</td><td><span class="badge badge-amber">Baixo</span></td><td><button class='btn btn-sm btn-outline'>Repor</button></td></tr></tbody></table>
+</section>
+</main></div></body></html>
